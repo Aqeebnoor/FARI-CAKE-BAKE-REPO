@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fari Cake Bake</title>
+ 
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+ 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+ 
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-3 px-lg-5">
+ 
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="logo-icon"><i class="bi bi-cake2-fill"></i></span>
+        <span class="logo-text ms-2">
+          <span class="logo-line1"><span class="fari">FARI</span> <span class="cakebake">CAKE BAKE</span></span>
+          <span class="logo-tagline">Cakes | Desserts | Baking | More</span>
+        </span>
+      </a>
+ 
+      <!-- Mobile toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+ 
+      <div class="collapse navbar-collapse" id="navMenu">
+ 
+        <!-- Nav Links -->
+        <ul class="navbar-nav mx-lg-auto gap-lg-4 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Collections
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Birthday Cakes</a></li>
+              <li><a class="dropdown-item" href="#">Wedding Cakes</a></li>
+              <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+              <li><a class="dropdown-item" href="#">Desserts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Custom Cake</a></li>
+        </ul>
+ 
+        <!-- Buttons -->
+        <div class="header-buttons d-flex gap-2 mt-3 mt-lg-0">
+          <a href="tel:+920000000000" class="btn btn-call">
+            <i class="bi bi-telephone-fill"></i> Call Now
+          </a>
+          <a href="https://wa.me/920000000000" target="_blank" class="btn btn-whatsapp">
+            <i class="bi bi-chat-dots-fill"></i> WhatsApp Order
+          </a>
+        </div>
+ 
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ===================== /HEADER ===================== -->
+ 
+
+ 
+<!-- ===================== HERO ===================== -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+ 
+      <!-- Left: Text -->
+      <div class="col-lg-6">
+        <span class="hero-badge">
+          <i class="bi bi-star-fill"></i> 100% HOMEMADE &middot; MADE WITH LOVE
+        </span>
+ 
+        <h1 class="hero-heading">
+          Freshly Baked<br>
+          <span class="gradient-text">Happiness</span>,<br>
+          Made With Love.
+        </h1>
+ 
+        <p class="hero-text">
+          Homemade cakes, premium desserts, fresh bakery items and delicious
+          pizza crafted with fresh ingredients for birthdays, weddings, parties
+          and every special moment.
+        </p>
+ 
+        <div class="hero-buttons d-flex flex-wrap gap-3">
+          <a href="#menu" class="btn btn-hero-primary">
+            View Menu <i class="bi bi-arrow-right"></i>
+          </a>
+          <a href="https://wa.me/920000000000" target="_blank" class="btn btn-hero-outline">
+            <i class="bi bi-chat-dots-fill"></i> Contact on WhatsApp
+          </a>
+        </div>
+      </div>
+ 
+      <!-- Right: Image -->
+      <div class="col-lg-6">
+        <div class="hero-image-wrap">
+          <img src="images/hero.png" alt="Freshly baked cake" class="hero-image">
+ 
+          <div class="hero-rating-card">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div>
+              <p class="rating-title">Loved by 2,000+ families</p>
+              <p class="rating-sub">Fresh &middot; Premium &middot; Homemade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+<!-- ===================== /HERO ===================== -->
+
+
+
+ 
+<!-- ===================== FEATURES STRIP ===================== -->
+<section class="features-strip">
+  <div class="container">
+    <div class="features-box d-flex flex-wrap justify-content-between">
+      <div class="feature-item">
+        <span class="feature-icon"><i class="bi bi-heart-fill"></i></span>
+        <p>100% Homemade</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon"><i class="bi bi-leaf"></i></span>
+        <p>Fresh Ingredients</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon"><i class="bi bi-stars"></i></span>
+        <p>Custom Orders</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon"><i class="bi bi-truck"></i></span>
+        <p>Fast Delivery</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon"><i class="bi bi-award-fill"></i></span>
+        <p>Premium Quality</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================== /FEATURES STRIP ===================== -->
+ 
+<!-- ===================== OUR STORY ===================== -->
+<section class="story-section">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+ 
+      <div class="col-lg-6">
+        <div class="story-image-wrap">
+          <img src="images/cupcake.png" alt="Homemade cupcake" class="story-image">
+        </div>
+      </div>
+ 
+      <div class="col-lg-6">
+        <span class="section-badge">OUR STORY</span>
+        <h2 class="story-heading">A little home kitchen with a big heart for baking.</h2>
+ 
+        <p class="story-text">
+          Fari Cake Bake began as a family passion for creating beautiful, delicious
+          treats at home. Every cake, dessert and bake is made fresh to order using
+          premium ingredients &mdash; never mass produced, always crafted with love.
+        </p>
+        <p class="story-text">
+          From custom celebration cakes to everyday sweet cravings, we bring warmth
+          and homemade goodness to your special moments.
+        </p>
+ 
+        <div class="row story-checklist">
+          <div class="col-sm-6">
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Homemade with care</p>
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Premium ingredients</p>
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Custom designs</p>
+          </div>
+          <div class="col-sm-6">
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Fresh everyday</p>
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Made with love</p>
+            <p><span class="check-icon"><i class="bi bi-check"></i></span> Proud family business</p>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+<!-- ===================== /OUR STORY ===================== -->
+
+
+
+ 
+<!-- ===================== CATEGORIES ===================== -->
+<section class="categories-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-badge">OUR CATEGORIES</span>
+      <h2 class="categories-heading">Something delicious for everyone</h2>
+      <p class="categories-subtext">Explore our curated collections crafted fresh every single day.</p>
+    </div>
+ 
+    <div class="row g-4">
+      <div class="col-6 col-lg-3">
+        <a href="cakes.html" class="category-card">
+          <div class="category-img-wrap">
+            <img src="images/cake.png" alt="Cakes">
+            <span class="category-icon"><i class="bi bi-cake2-fill"></i></span>
+          </div>
+          <div class="category-body">
+            <h3>Cakes</h3>
+            <p>Celebration, birthday &amp; signature layered cakes.</p>
+            <span class="view-collection">View Collection <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+ 
+      <div class="col-6 col-lg-3">
+        <a href="desserts.html" class="category-card">
+          <div class="category-img-wrap">
+            <img src="images/desserts.png" alt="Desserts">
+            <span class="category-icon"><i class="bi bi-piggy-bank-fill"></i></span>
+          </div>
+          <div class="category-body">
+            <h3>Desserts</h3>
+            <p>Cheesecakes, mousse, macarons &amp; sweet treats.</p>
+            <span class="view-collection">View Collection <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+ 
+      <div class="col-6 col-lg-3">
+        <a href="bakery.html" class="category-card">
+          <div class="category-img-wrap">
+            <img src="images/bakery.png" alt="Bakery">
+            <span class="category-icon"><i class="bi bi-cup-hot-fill"></i></span>
+          </div>
+          <div class="category-body">
+            <h3>Bakery</h3>
+            <p>Fresh croissants, breads &amp; buttery pastries.</p>
+            <span class="view-collection">View Collection <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+ 
+      <div class="col-6 col-lg-3">
+        <a href="pizza.html" class="category-card">
+          <div class="category-img-wrap">
+            <img src="images/pizza.png" alt="Pizza">
+            <span class="category-icon"><i class="bi bi-record-circle-fill"></i></span>
+          </div>
+          <div class="category-body">
+            <h3>Pizza</h3>
+            <p>Hand-tossed, oven-fresh gourmet pizzas.</p>
+            <span class="view-collection">View Collection <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================== /CATEGORIES ===================== -->
+
+
+
+ 
+<!-- ===================== MENU / FEATURED FAVOURITES ===================== -->
+<section class="menu-section" id="menu">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-badge">OUR MENU</span>
+      <h2 class="menu-heading">Featured favourites</h2>
+      <p class="categories-subtext">Handpicked bestsellers, baked fresh and ready to make your day sweeter.</p>
+    </div>
+ 
+    <div class="row g-4" id="menuGrid"><!-- cards injected by js/menu-data.js --></div>
+  </div>
+</section>
+<!-- ===================== /MENU ===================== -->
+ 
+ 
+<!-- ===================== CUSTOM CAKE CTA ===================== -->
+<section class="custom-cta-section">
+  <div class="container">
+    <div class="custom-cta-box">
+      <div class="custom-cta-text">
+        <span class="section-badge badge-dark"><i class="bi bi-stars"></i> CUSTOM CAKES</span>
+        <h2>Dream it. We'll bake it beautifully.</h2>
+        <p>From elegant wedding tiers to playful themed birthday cakes, our custom creations are designed around your story. Tell us your vision, flavours and colours — we handle the magic.</p>
+        <a href="#" class="btn-cta-light"><i class="bi bi-chat-dots-fill"></i> Request Custom Cake</a>
+      </div>
+      <div class="custom-cta-img">
+        <img src="images/custom-cake.jpg" alt="Custom themed cake">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================== /CUSTOM CAKE CTA ===================== -->
+ 
+<!-- ===================== GALLERY ===================== -->
+<section class="gallery-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-badge">GALLERY</span>
+      <h2 class="categories-heading">Baked to be admired</h2>
+      <p class="categories-subtext">A little taste of the sweetness we create every day.</p>
+    </div>
+ 
+    <div class="gallery-grid">
+      <img src="images/gallery-1.jpg" alt="Gallery photo">
+      <img src="images/gallery-2.jpg" alt="Gallery photo">
+      <img src="images/gallery-3.jpg" alt="Gallery photo">
+      <img src="images/gallery-4.jpg" alt="Gallery photo">
+      <img src="images/gallery-5.jpg" alt="Gallery photo">
+      <img src="images/gallery-6.jpg" alt="Gallery photo">
+      <img src="images/gallery-7.jpg" alt="Gallery photo">
+      <img src="images/gallery-8.jpg" alt="Gallery photo">
+      <img src="images/gallery-9.jpg" alt="Gallery photo">
+    </div>
+  </div>
+</section>
+<!-- ===================== /GALLERY ===================== -->
+ 
+
+ 
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials-section">
+  <div class="container text-center">
+    <span class="section-badge">REVIEWS</span>
+    <h2 class="categories-heading">Loved by our customers</h2>
+ 
+    <div class="testimonial-card" id="testimonialCard"></div>
+ 
+    <div class="testimonial-nav">
+      <button class="t-arrow" id="tPrev"><i class="bi bi-chevron-left"></i></button>
+      <div class="t-dots" id="tDots"></div>
+      <button class="t-arrow" id="tNext"><i class="bi bi-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+<!-- ===================== /TESTIMONIALS ===================== -->
+ 
+<!-- ===================== SPECIAL OFFER ===================== -->
+<section class="offer-section">
+  <div class="container">
+    <div class="offer-box">
+      <img src="images/offer-bg.jpg" alt="Chocolate cake" class="offer-bg">
+      <div class="offer-overlay"></div>
+      <div class="offer-content">
+        <span class="section-badge badge-dark">SPECIAL OFFER</span>
+        <h2>Sweet deals, made just for you.</h2>
+        <div class="offer-pills">
+          <span class="offer-pill"><i class="bi bi-truck"></i> Free Delivery above Rs. 3,000</span>
+          <span class="offer-pill"><i class="bi bi-percent"></i> 10% OFF your first order</span>
+        </div>
+        <a href="https://wa.me/920000000000" target="_blank" class="btn-cta-light"><i class="bi bi-chat-dots-fill"></i> Claim Offer on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================== /SPECIAL OFFER ===================== -->
+ 
+<!-- ===================== FAQ ===================== -->
+<section class="faq-section">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-5">
+        <span class="section-badge">FAQ</span>
+        <h2 class="story-heading">Questions? We've got sweet answers.</h2>
+        <p class="story-text">Everything you need to know about ordering, delivery, customization and pricing at Fari Cake Bake.</p>
+      </div>
+ 
+      <div class="col-lg-7">
+        <details class="faq-item" open>
+          <summary>How do I place an order? <span class="faq-icon-circle"><span class="faq-icon"></span></span></summary>
+          <p>Simply browse our menu and tap 'Get Quote' or 'WhatsApp' on any item. Your selection is prefilled and our team confirms details, pricing and timing on WhatsApp.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much notice do you need? <span class="faq-icon-circle"><span class="faq-icon"></span></span></summary>
+          <p>For regular items 24-48 hours is enough. Custom or multi-tier cakes are best ordered 3-5 days ahead.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you offer delivery? <span class="faq-icon-circle"><span class="faq-icon"></span></span></summary>
+          <p>Yes, we deliver across the city. Delivery is free on orders above Rs. 3,000.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I fully customise my cake? <span class="faq-icon-circle"><span class="faq-icon"></span></span></summary>
+          <p>Absolutely — flavours, colours, size and design can all be tailored to your event.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How is pricing decided? <span class="faq-icon-circle"><span class="faq-icon"></span></span></summary>
+          <p>Pricing depends on size, flavour and design complexity. Share your idea and we'll send an exact quote.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================== /FAQ ===================== -->
+ 
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container">
+        <div class="row gy-5">
+
+            <!-- Logo -->
+            <div class="col-lg-3">
+                <img src="images/logo.png" class="footer-logo" alt="Logo">
+
+                <p class="footer-text">
+                    Homemade cakes, premium desserts, fresh bakery items and delicious pizza —
+                    crafted with love for every special moment.
+                </p>
+
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#">TT</a>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="col-lg-3">
+                <h5>Quick Links</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Collections -->
+            <div class="col-lg-3">
+                <h5>Collections</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">🎂 Cakes</a></li>
+                    <li><a href="#">🍰 Desserts</a></li>
+                    <li><a href="#">🥐 Bakery</a></li>
+                    <li><a href="#">🍕 Pizza</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3">
+                <h5>Get in Touch</h5>
+
+                <p class="footer-address">
+                    123 Baker Street, Lahore, Pakistan
+                </p>
+
+                <a href="#" class="footer-btn">
+                    <i class="bi bi-whatsapp"></i>
+                    Order on WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2026 Fari Cake Bake. All rights reserved.</p>
+
+            <span>Cakes · Desserts · Bakery · Pizza</span>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/menu-data.js"></script>
+</body>
+</html>
