@@ -1,0 +1,555 @@
+
+/* =========================================================
+   FARI CAKE BAKE — Global + Header Styles
+   ========================================================= */
+
+:root{
+  --header-bg:       #FEF6F3;
+  --btn-inactive:    #7B5A50;   /* Call Now button */
+  --btn-active:      #6B3E2E;   /* WhatsApp Order / main brand color */
+  --text-dark:       #4A342E;
+  --text-muted:      #9C8880;
+  --white:           #FFFFFF;
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body:    'Poppins', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  margin: 0;
+}
+
+/* ============ HEADER ============ */
+.site-header{
+  background-color: var(--header-bg);
+  box-shadow: 0 4px 15px rgba(107, 62, 46, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.site-header .navbar{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* ---- Logo ---- */
+.navbar-brand{
+  text-decoration: none;
+  line-height: 1.1;
+}
+
+.logo-icon{
+  font-size: 2rem;
+  color: var(--btn-active);
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-line1{
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: .5px;
+}
+
+.logo-line1 .fari{
+  color: #E07B39;
+}
+
+.logo-line1 .cakebake{
+  color: var(--btn-active);
+}
+
+.logo-tagline{
+  font-size: .65rem;
+  color: var(--text-muted);
+  letter-spacing: .5px;
+}
+
+/* ---- Nav Links ---- */
+.navbar-nav .nav-link{
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: .95rem;
+  padding: .5rem .85rem;
+  transition: color .2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus{
+  color: var(--btn-active);
+}
+
+.dropdown-menu{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(107, 62, 46, 0.15);
+  padding: .5rem;
+}
+
+.dropdown-item{
+  border-radius: 6px;
+  font-size: .9rem;
+  padding: .5rem .75rem;
+  color: var(--text-dark);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus{
+  background-color: var(--header-bg);
+  color: var(--btn-active);
+}
+
+/* ---- Buttons ---- */
+.header-buttons .btn{
+  border-radius: 50px;
+  font-size: .9rem;
+  font-weight: 500;
+  padding: .55rem 1.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  white-space: nowrap;
+  transition: all .2s ease;
+}
+
+/* Call Now — non-active state */
+.btn-call{
+  background-color: var(--white);
+  color: var(--btn-inactive);
+  border: 1px solid var(--btn-inactive);
+}
+
+.btn-call:hover{
+  background-color: var(--btn-inactive);
+  color: var(--white);
+}
+
+/* WhatsApp Order — active / main color */
+.btn-whatsapp{
+  background-color: var(--btn-active);
+  color: var(--white);
+  border: 1px solid var(--btn-active);
+}
+
+.btn-whatsapp:hover{
+  background-color: #582F22;
+  color: var(--white);
+}
+
+/* ---- Mobile toggler ---- */
+.navbar-toggler{
+  border: none;
+  box-shadow: none !important;
+}
+
+@media (max-width: 991.98px){
+  .collapse.navbar-collapse{
+    background-color: var(--header-bg);
+    padding: 1rem 0;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    gap: .25rem;
+  }
+
+  .header-buttons{
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+/*========================
+      cake HERO
+========================*/
+
+.cake-hero{
+    min-height:500px;
+    background:
+        linear-gradient(rgba(55,35,30,.48),rgba(55,35,30,.48)),
+        url("../images/cake-hero.png") center/cover;
+    display:flex;
+    align-items:center;
+}
+
+.cake-hero-content{
+    width:min(100% - 140px,1200px);
+    margin:auto;
+    color:#fff;
+}
+
+.cake-hero h1{
+    font-size:clamp(2.5rem,4vw,4.2rem);
+    line-height:1.05;
+    margin:20px 0;
+}
+
+.cake-hero p{
+    max-width:560px;
+    line-height:1.7;
+    font-size:1.05rem;
+}
+
+.cake-hero .section-badge{
+    background:#fce8ed;
+    color:#805747;
+}
+
+/*========================
+       BREADCRUMB
+========================*/
+
+.cake-breadcrumb{
+    padding:18px 0;
+    border-bottom:1px solid #f1e7e4;
+    background:#fff;
+}
+
+.cake-breadcrumb .container{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:.85rem;
+}
+
+.cake-breadcrumb a{
+    color:#8d6658;
+    text-decoration:none;
+}
+
+.cake-breadcrumb i{
+    color:#c3aaa1;
+    font-size:.7rem;
+}
+
+.cake-breadcrumb span{
+    color:#6b3e2e;
+}
+
+/*========================
+       RESPONSIVE
+========================*/
+
+@media(max-width:767px){
+
+    .cake-hero{
+        min-height:420px;
+    }
+
+    .cake-hero-content{
+        width:calc(100% - 40px);
+    }
+
+    .cake-hero h1{
+        font-size:2.4rem;
+    }
+
+    .cake-hero p{
+        font-size:.95rem;
+    }
+
+
+}
+
+
+/* ===================== CAKES ===================== */
+
+.cakes-section{
+    padding:90px 0;
+    background:#fff;
+}
+
+.cake-card{
+    background:#fff;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    transition:.35s;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.cake-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+.cake-content{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.cake-content h4{
+    font-family:'Playfair Display',serif;
+    font-size:24px;
+    color:#5d3426;
+    margin-bottom:10px;
+}
+
+.cake-content p{
+    color:#8a7268;
+    font-size:15px;
+    margin-bottom:18px;
+    line-height:1.6;
+}
+
+.cake-price{
+    font-size:17px;
+    font-weight:700;
+    color:#6b3d2c;
+    margin-bottom:18px;
+}
+
+.whatsapp-btn{
+    margin-top:auto;
+    display:block;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    background:#7a4a36;
+    color:#fff;
+    padding:12px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.whatsapp-btn i{
+    margin-right:6px;
+}
+
+
+
+/* Hover */
+
+.cake-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.cake-card:hover img{
+    transform:scale(1.05);
+}
+
+.cake-card img{
+    transition:.5s;
+}
+
+.whatsapp-btn:hover{
+    background:#5f3628;
+    color:#fff;
+}
+
+/* Tablet */
+
+@media(max-width:991px){
+
+.cakes-section{
+    padding:70px 0;
+}
+
+.cake-content h4{
+    font-size:21px;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:767px){
+
+.cake-card img{
+    height:220px;
+}
+
+.cake-content{
+    padding:18px;
+}
+
+.cake-content h4{
+    font-size:20px;
+}
+
+.cake-content p{
+    font-size:14px;
+}
+
+.cake-price{
+    font-size:16px;
+}
+
+.whatsapp-btn{
+    padding:11px;
+    font-size:14px;
+}
+
+}
+
+
+
+
+
+
+/*=========================
+        FOOTER
+=========================*/
+
+.footer{
+    background:#744633;
+    color:#fff;
+    padding:80px 0 25px;
+}
+
+.footer-logo{
+    width:75px;
+    height:75px;
+    border-radius:20px;
+    background:#fff;
+    padding:8px;
+    object-fit:cover;
+    margin-bottom:22px;
+}
+
+.footer-text{
+    color:#e5d3cc;
+    line-height:1.9;
+    margin-bottom:28px;
+}
+
+.footer h5{
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.footer-links{
+    list-style:none;
+    padding:0;
+}
+
+.footer-links li{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    color:#e5d3cc;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+.footer-address{
+    color:#e5d3cc;
+    margin-bottom:25px;
+}
+
+.footer-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:#fff;
+    color:#744633;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.footer-btn:hover{
+    background:#f8dede;
+}
+
+.social-links{
+    display:flex;
+    gap:14px;
+}
+
+.social-links a{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background:rgba(255,255,255,.12);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#fff;
+    color:#744633;
+}
+
+.footer hr{
+    border-color:rgba(255,255,255,.12);
+    margin:55px 0 25px;
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#d8c4bc;
+    font-size:.95rem;
+}
+
+/*=========================
+      Responsive
+=========================*/
+
+@media(max-width:991px){
+
+.footer{
+padding:60px 0 20px;
+}
+
+.footer-bottom{
+flex-direction:column;
+gap:12px;
+text-align:center;
+}
+
+}
+
+@media(max-width:767px){
+
+.footer{
+text-align:center;
+}
+
+.social-links{
+justify-content:center;
+margin-bottom:25px;
+}
+
+.footer-btn{
+justify-content:center;
+width:100%;
+}
+
+}
