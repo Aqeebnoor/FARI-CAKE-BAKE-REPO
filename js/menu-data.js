@@ -1,17 +1,17 @@
 // Featured Favourites — data-driven cards (edit array to add/remove items)
 const menuItems = [
-  { img: "menu-1.jpg",  title: "Signature Chocolate Cake", desc: "Rich fudge layers with silky ganache.", price: "2,500" },
-  { img: "menu-2.jpg",  title: "French Macarons Box", desc: "Delicate almond shells, assorted flavours.", price: "1,200" },
-  { img: "menu-3.jpg",  title: "Berry Cheesecake", desc: "Creamy baked cheesecake with fresh berries.", price: "1,800" },
-  { img: "menu-4.jpg",  title: "Fudge Brownie Stack", desc: "Dense, gooey chocolate brownies.", price: "900" },
-  { img: "menu-5.jpg",  title: "Classic Red Velvet", desc: "Velvety sponge with cream cheese frosting.", price: "2,200" },
-  { img: "menu-6.jpg",  title: "Glazed Donut Dozen", desc: "Soft donuts with assorted glazes.", price: "1,000" },
-  { img: "menu-7.jpg",  title: "Tiramisu Cups", desc: "Coffee-soaked layers with mascarpone.", price: "1,400" },
-  { img: "menu-8.jpg",  title: "Fresh Fruit Tart", desc: "Buttery crust, custard & glazed fruits.", price: "1,600" },
-  { img: "menu-9.jpg",  title: "Custom Birthday Cake", desc: "Personalised design for every celebration.", price: "3,000" },
-  { img: "menu-10.jpg", title: "Assorted Dessert Box", desc: "A curated selection of our finest sweets.", price: "2,000" },
-  { img: "menu-11.jpg", title: "Artisan Croissants", desc: "Flaky, buttery, baked fresh each morning.", price: "700" },
-  { img: "menu-12.jpg", title: "Gourmet Margherita Pizza", desc: "Hand-tossed base, mozzarella & basil.", price: "1,100" },
+  { img: "menu-1.png",  title: "Signature Chocolate Cake", desc: "Rich fudge layers with silky ganache.", price: "2,500" },
+  { img: "menu-2.png",  title: "French Macarons Box", desc: "Delicate almond shells, assorted flavours.", price: "1,200" },
+  { img: "menu-3.png",  title: "Berry Cheesecake", desc: "Creamy baked cheesecake with fresh berries.", price: "1,800" },
+  { img: "menu-4.png",  title: "Fudge Brownie Stack", desc: "Dense, gooey chocolate brownies.", price: "900" },
+  { img: "menu-5.png",  title: "Classic Red Velvet", desc: "Velvety sponge with cream cheese frosting.", price: "2,200" },
+  { img: "menu-6.png",  title: "Glazed Donut Dozen", desc: "Soft donuts with assorted glazes.", price: "1,000" },
+  { img: "menu-7.png",  title: "Tiramisu Cups", desc: "Coffee-soaked layers with mascarpone.", price: "1,400" },
+  { img: "menu-8.png",  title: "Fresh Fruit Tart", desc: "Buttery crust, custard & glazed fruits.", price: "1,600" },
+  { img: "menu-9.png",  title: "Custom Birthday Cake", desc: "Personalised design for every celebration.", price: "3,000" },
+  { img: "menu-10.png", title: "Assorted Dessert Box", desc: "A curated selection of our finest sweets.", price: "2,000" },
+  { img: "menu-11.png", title: "Artisan Croissants", desc: "Flaky, buttery, baked fresh each morning.", price: "700" },
+  { img: "menu-12.png", title: "Gourmet Margherita Pizza", desc: "Hand-tossed base, mozzarella & basil.", price: "1,100" },
 ];
 
 function renderMenu() {

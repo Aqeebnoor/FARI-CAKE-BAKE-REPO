@@ -39,41 +39,34 @@ body{
 }
 
 /* ---- Logo ---- */
+.site-logo{
+    height:55px;
+    width:auto;
+    object-fit:contain;
+    transition:.3s;
+}
+
+.site-logo:hover{
+    transform:scale(1.03);
+}
+
 .navbar-brand{
-  text-decoration: none;
-  line-height: 1.1;
+    padding:0;
+    display:flex;
+    align-items:center;
 }
 
-.logo-icon{
-  font-size: 2rem;
-  color: var(--btn-active);
+
+@media(max-width:768px){
+
+.site-logo{
+    height:55px;
 }
 
-.logo-text{
-  display: flex;
-  flex-direction: column;
 }
 
-.logo-line1{
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: .5px;
-}
 
-.logo-line1 .fari{
-  color: #E07B39;
-}
 
-.logo-line1 .cakebake{
-  color: var(--btn-active);
-}
-
-.logo-tagline{
-  font-size: .65rem;
-  color: var(--text-muted);
-  letter-spacing: .5px;
-}
 
 /* ---- Nav Links ---- */
 .navbar-nav .nav-link{
