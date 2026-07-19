@@ -175,37 +175,37 @@ body{
 
 
 /*========================
-      bakery HERO
+      desserts HERO
 ========================*/
 
-.bakery-hero{
+.desserts-hero{
     min-height:500px;
     background:
         linear-gradient(rgba(55,35,30,.48),rgba(55,35,30,.48)),
-        url("../images/bakery-hero.jpg") center/cover;
+        url("../images/desserts-hero.png") center/cover;
     display:flex;
     align-items:center;
 }
 
-.bakery-hero-content{
+.desserts-hero-content{
     width:min(100% - 140px,1200px);
     margin:auto;
     color:#fff;
 }
 
-.bakery-hero h1{
+.desserts-hero h1{
     font-size:clamp(2.5rem,4vw,4.2rem);
     line-height:1.05;
     margin:20px 0;
 }
 
-.bakery-hero p{
+.desserts-hero p{
     max-width:560px;
     line-height:1.7;
     font-size:1.05rem;
 }
 
-.bakery-hero .section-badge{
+.desserts-hero .section-badge{
     background:#fce8ed;
     color:#805747;
 }
@@ -214,30 +214,30 @@ body{
        BREADCRUMB
 ========================*/
 
-.bakery-breadcrumb{
+.desserts-breadcrumb{
     padding:18px 0;
     border-bottom:1px solid #f1e7e4;
     background:#fff;
 }
 
-.bakery-breadcrumb .container{
+.desserts-breadcrumb .container{
     display:flex;
     align-items:center;
     gap:12px;
     font-size:.85rem;
 }
 
-.bakery-breadcrumb a{
+.desserts-breadcrumb a{
     color:#8d6658;
     text-decoration:none;
 }
 
-.bakery-breadcrumb i{
+.desserts-breadcrumb i{
     color:#c3aaa1;
     font-size:.7rem;
 }
 
-.bakery-breadcrumb span{
+.desserts-breadcrumb span{
     color:#6b3e2e;
 }
 
@@ -247,19 +247,19 @@ body{
 
 @media(max-width:767px){
 
-    .bakery-hero{
+    .desserts-hero{
         min-height:420px;
     }
 
-    .bakery-hero-content{
+    .desserts-hero-content{
         width:calc(100% - 40px);
     }
 
-    .bakery-hero h1{
+    .desserts-hero h1{
         font-size:2.4rem;
     }
 
-    .bakery-hero p{
+    .desserts-hero p{
         font-size:.95rem;
     }
 
@@ -273,143 +273,6 @@ body{
 
 
 
-
-/* ===================== bakery ===================== */
-
-.bakery-section{
-    padding:90px 0;
-    background:#fff;
-}
-
-.bakery-card{
-    background:#fff;
-    border-radius:24px;
-    overflow:hidden;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-    transition:.35s;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-}
-
-.bakery-card img{
-    width:100%;
-    height:240px;
-    object-fit:cover;
-}
-
-.bakery-content{
-    padding:20px;
-    display:flex;
-    flex-direction:column;
-    flex:1;
-}
-
-.bakery-content h4{
-    font-family:'Playfair Display',serif;
-    font-size:24px;
-    color:#5d3426;
-    margin-bottom:10px;
-}
-
-.bakery-content p{
-    color:#8a7268;
-    font-size:15px;
-    margin-bottom:18px;
-    line-height:1.6;
-}
-
-.bakery-price{
-    font-size:17px;
-    font-weight:700;
-    color:#6b3d2c;
-    margin-bottom:18px;
-}
-
-.whatsapp-btn{
-    margin-top:auto;
-    display:block;
-    width:100%;
-    text-align:center;
-    text-decoration:none;
-    background:#7a4a36;
-    color:#fff;
-    padding:12px;
-    border-radius:40px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.whatsapp-btn i{
-    margin-right:6px;
-}
-
-
-
-/* Hover */
-
-.bakery-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(0,0,0,.12);
-}
-
-.bakery-card:hover img{
-    transform:scale(1.05);
-}
-
-.bakery-card img{
-    transition:.5s;
-}
-
-.whatsapp-btn:hover{
-    background:#5f3628;
-    color:#fff;
-}
-
-/* Tablet */
-
-@media(max-width:991px){
-
-.bakery-section{
-    padding:70px 0;
-}
-
-.bakery-content h4{
-    font-size:21px;
-}
-
-}
-
-/* Mobile */
-
-@media(max-width:767px){
-
-.bakery-card img{
-    height:220px;
-}
-
-.bakery-content{
-    padding:18px;
-}
-
-.bakery-content h4{
-    font-size:20px;
-}
-
-.bakery-content p{
-    font-size:14px;
-}
-
-.bakery-price{
-    font-size:16px;
-}
-
-.whatsapp-btn{
-    padding:11px;
-    font-size:14px;
-}
-
-}
 
 
 
