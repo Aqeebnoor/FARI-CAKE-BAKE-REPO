@@ -176,7 +176,7 @@ body{
     min-height:500px;
     background:
         linear-gradient(rgba(55,35,30,.48),rgba(55,35,30,.48)),
-        url("../images/bakery-hero.jpg") center/cover;
+        url("../images/bakery-hero.png") center/cover;
     display:flex;
     align-items:center;
 }
