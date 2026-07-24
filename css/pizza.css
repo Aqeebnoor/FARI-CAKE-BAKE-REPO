@@ -422,12 +422,12 @@ body{
 }
 
 .footer-logo{
-    width:75px;
-    height:75px;
+    width:150px;
+    height:70px;
     border-radius:20px;
     background:#fff;
     padding:8px;
-    object-fit:cover;
+    object-fit:contain;
     margin-bottom:22px;
 }
 
