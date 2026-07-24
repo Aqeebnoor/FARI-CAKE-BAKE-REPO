@@ -24,7 +24,7 @@ function renderMenu() {
           <p>${item.desc}</p>
           <p class="menu-price"> <span> ${item.price}</span></p>
           <div class="menu-buttons">
-            <a href="https://wa.me/923135997866" target="_blank" class="btn-whatsapp-sm"><i class="bi bi-chat-dots-fill"></i> WhatsApp</a>
+            <a href="#" target="_blank" class="btn-whatsapp-sm"><i class="bi bi-chat-dots-fill"></i> WhatsApp</a>
           </div>
         </div>
       </div>

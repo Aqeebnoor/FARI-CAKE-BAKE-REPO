@@ -120,3 +120,38 @@ showTestimonial(current);
 };
 
 }
+
+
+// ===================== WhatsApp Dynamic Product =====================
+
+const whatsappNumber = "923001234567"; // Apna client ka number
+
+document.querySelectorAll(".whatsapp-btn").forEach(btn => {
+
+    btn.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        const card = this.closest(
+            ".cake-card, .pizza-card, .bakery-card, .dessert-card, .featured-card"
+        );
+
+        const productName = card.querySelector("h5").innerText;
+
+        const message =
+`Hi 👋
+
+I would like to order:
+
+${productName}
+
+Please share the available sizes and price. Thank you!`;
+
+        window.open(
+            `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`,
+            "_blank"
+        );
+
+    });
+
+});
