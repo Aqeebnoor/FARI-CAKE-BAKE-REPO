@@ -126,17 +126,17 @@ showTestimonial(current);
 
 const whatsappNumber = "923135997866"; // Apna client ka number
 
-document.querySelectorAll(".whatsapp-btn").forEach(btn => {
+document.querySelectorAll(".whatsapp-btn, .btn-whatsapp-sm").forEach(btn => {
 
     btn.addEventListener("click", function(e){
 
         e.preventDefault();
 
         const card = this.closest(
-            ".cake-card, .pizza-card, .bakery-card, .dessert-card, .featured-card"
+            ".cake-card, .pizza-card, .bakery-card, .dessert-card, .featured-card, .menu-card"
         );
 
-        const productName = card.querySelector("h5").innerText;
+        const productName = card.querySelector("h5, h3").innerText;
 
         const message =
 `Hi 👋

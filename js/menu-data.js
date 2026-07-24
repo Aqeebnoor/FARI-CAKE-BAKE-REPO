@@ -23,9 +23,20 @@ function renderMenu() {
           <h3>${item.title}</h3>
           <p>${item.desc}</p>
           <p class="menu-price"> <span> ${item.price}</span></p>
-          <div class="menu-buttons">
-            <a href="#" target="_blank" class="btn-whatsapp-sm"><i class="bi bi-chat-dots-fill"></i> WhatsApp</a>
-          </div>
+          <div class="whatsapp-btn1">
+  <a href="https://wa.me/923001234567?text=${encodeURIComponent(
+`Hi 👋
+
+I would like to order:
+
+${item.title}
+
+Please share the available sizes and price. Thank you!`
+)}
+  " target="_blank" class="btn-whatsapp-sm">
+    <i class="bi bi-chat-dots-fill"></i> WhatsApp
+  </a>
+</div>
         </div>
       </div>
     </div>
