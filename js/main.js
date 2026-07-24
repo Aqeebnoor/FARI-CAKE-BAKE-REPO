@@ -124,7 +124,7 @@ showTestimonial(current);
 
 // ===================== WhatsApp Dynamic Product =====================
 
-const whatsappNumber = "923001234567"; // Apna client ka number
+const whatsappNumber = "923135997866"; // Apna client ka number
 
 document.querySelectorAll(".whatsapp-btn").forEach(btn => {
 
