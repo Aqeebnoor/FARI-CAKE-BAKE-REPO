@@ -24,7 +24,7 @@ function renderMenu() {
           <p>${item.desc}</p>
           <p class="menu-price"> <span> ${item.price}</span></p>
           <div class="whatsapp-btn1">
-  <a href="https://wa.me/923001234567?text=${encodeURIComponent(
+  <a href="https://wa.me/923135997866?text=${encodeURIComponent(
 `Hi 👋
 
 I would like to order:
