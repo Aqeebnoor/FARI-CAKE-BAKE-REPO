@@ -3,11 +3,11 @@ const menuItems = [
   { img: "menu-1.png",  title: "Double Fudge Brownie", desc: "Rich brownie sponge with chocolate fudge sauce, marbled with white chocolate.", price:  " Rs. 200" },
   { img: "special-offer.png",  title: "Umrah Mubarak Cake", desc: "Custom-designed multi-layer celebration cake to mark a sacred journey.", price: "5 Pound  Rs. 7500" },
   { img: "menu-3.png",  title: "Mini Chicken Tikka Pizza", desc: "Topped with spicy tikka chicken chunks, onions, and melted mozzarella.", price: "Starting From Rs. 300" },
-  { img: "menu-4.png",  title: "Fudge Brownie Stack", desc: "Dense, gooey chocolate brownies.", price: "900" },
-  { img: "menu-5.png",  title: "Classic Red Velvet", desc: "Velvety sponge with cream cheese frosting.", price: "2,200" },
-  { img: "menu-6.png",  title: "Glazed Donut Dozen", desc: "Soft donuts with assorted glazes.", price: "1,000" },
-  { img: "custom-cake.png",  title: "Tiramisu Cups", desc: "Coffee-soaked layers with mascarpone.", price: "1,400" },
-  { img: "menu-11.png", title: "Artisan Croissants", desc: "Flaky, buttery, baked fresh each morning.", price: "700" },
+  { img: "menu-4.png",  title: "Lotus Bento Cake", desc: "Mini celebration cake flavored with Biscoff spread and crunchy Lotus crumbs.", price: "1 Pound  Rs. 1500" },
+  { img: "menu-5.png",  title: "Dum Qeema Patties", desc: "Crispy baked pastries packed with aromatic, smoky minced meat.", price: "6 pieces Rs. 1000" },
+  { img: "menu-6.png",  title: "Three-Milk Dessert", desc: "Classic Tres Leches sponge cake soaked in a rich three-milk blend.", price: "Starting from Rs. 650" },
+  { img: "custom-cake.png",  title: "Dholki Cake", desc: "Vibrant, festively decorated cake tailored for wedding and dholki events.", price: "2 Pound Rs. 10000" },
+  { img: "menu-11.png", title: "Mini Malai Boti Pizza", desc: "Tender creamy malai chicken boti topped with cheese and a mild sauce base.", price: "Starting from Rs. 320" },
   
 ];
 
