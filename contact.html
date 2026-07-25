@@ -25,21 +25,21 @@
 <header class="site-header">
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid px-3 px-lg-5">
-
+ 
       <!-- Logo -->
 <a class="navbar-brand" href="index.html">
     <img src="images/logo.png" alt="Fari Cake Bake" class="site-logo">
-</a>
+</a> 
       <!-- Mobile toggle -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+ 
       <div class="collapse navbar-collapse" id="navMenu">
-
+ 
         <!-- Nav Links -->
         <ul class="navbar-nav mx-lg-auto gap-lg-4 align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,25 +53,27 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="custom-cake.html">Custom Cake</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://wa.me/923135997866?text=Hi,%20I%20want%20to%20order%20a%20Custom%20Cake."
+       target="_blank">Custom Cake</a></li>
         </ul>
-
+ 
         <!-- Buttons -->
         <div class="header-buttons d-flex gap-2 mt-3 mt-lg-0">
-          <a href="tel:+920000000000" class="btn btn-call">
+          <a href="tel:+923135997866" class="btn btn-call">
             <i class="bi bi-telephone-fill"></i> Call Now
           </a>
-          <a href="https://wa.me/920000000000" target="_blank" class="btn btn-whatsapp">
+          <a href="https://wa.me/923135997866" target="_blank" class="btn btn-whatsapp">
             <i class="bi bi-chat-dots-fill"></i> WhatsApp Order
           </a>
         </div>
-
+ 
       </div>
     </div>
   </nav>
 </header>
 <!-- ===================== /HEADER ===================== -->
+
 
 
 <main>
@@ -91,7 +93,7 @@
     </div>
   </section>
   <!-- ===================== /HERO ===================== -->
-  <!-- ===================== /HERO ===================== -->
+ 
 
 
   <!-- ===================== BREADCRUMB ===================== -->
@@ -122,7 +124,7 @@
                 <div class="icon-wrap"><i class="bi bi-geo-alt-fill"></i></div>
                 <div>
                   <h6 class="card-title">Address</h6>
-                  <p class="card-text">123 Baker Street, Lahore, Pakistan</p>
+                  <p class="card-text">Gulshan-E-Iqbal, Karachi, Pakistan</p>
                 </div>
               </div>
             </div>
@@ -132,7 +134,7 @@
                 <div class="icon-wrap"><i class="bi bi-telephone-fill"></i></div>
                 <div>
                   <h6 class="card-title">Phone</h6>
-                  <p class="card-text">+92 300 1234567</p>
+                  <p class="card-text">+92 313 5997866</p>
                 </div>
               </div>
             </div>
@@ -142,7 +144,7 @@
                 <div class="icon-wrap"><i class="bi bi-envelope-fill"></i></div>
                 <div>
                   <h6 class="card-title">Email</h6>
-                  <p class="card-text">hello@faricakebake.com</p>
+                  <p class="card-text">f.farikhan12345@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -166,27 +168,50 @@
             <h5 class="mb-3">Send an inquiry</h5>
             <p class="small text-muted">We'll reply on WhatsApp — no orders are placed automatically.</p>
 
-            <form class="mt-3">
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Your name">
-              </div>
+            <form id="contactForm" class="mt-3">
 
-              <div class="mb-3">
-                <input type="tel" class="form-control" placeholder="Phone number">
-              </div>
+    <div class="mb-3">
+        <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Your name"
+            required>
+    </div>
 
-              <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Email address">
-              </div>
+    <div class="mb-3">
+        <input
+            type="tel"
+            id="phone"
+            class="form-control"
+            placeholder="Phone number"
+            required>
+    </div>
 
-              <div class="mb-3">
-                <textarea class="form-control" rows="5" placeholder="Your message"></textarea>
-              </div>
+    <div class="mb-3">
+        <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Email address">
+    </div>
 
-              <div class="d-grid">
-                <button type="submit" class="btn btn-hero-primary">Send Inquiry</button>
-              </div>
-            </form>
+    <div class="mb-3">
+        <textarea
+            id="message"
+            class="form-control"
+            rows="5"
+            placeholder="Your message"
+            required></textarea>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-hero-primary">
+            Send Inquiry
+        </button>
+    </div>
+
+</form>
           </div>
         </div>
 

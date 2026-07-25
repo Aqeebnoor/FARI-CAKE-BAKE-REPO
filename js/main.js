@@ -155,3 +155,53 @@ Please share the available sizes and price. Thank you!`;
     });
 
 });
+
+
+// =============================
+// CONTACT FORM → WHATSAPP
+// =============================
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const contactForm = document.getElementById("contactForm");
+
+    if(contactForm){
+
+        contactForm.addEventListener("submit", function(e){
+
+            e.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const phone = document.getElementById("phone").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            // CLIENT WHATSAPP NUMBER
+            const whatsappNumber = "923135997866";
+
+            const whatsappMessage = `Hi 👋
+
+I would like to send an inquiry.
+
+👤 Name: ${name}
+
+📞 Phone: ${phone}
+
+📧 Email: ${email}
+
+📝 Message:
+${message}`;
+
+            const whatsappURL =
+            `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+            window.open(whatsappURL, "_blank");
+
+            // Optional: Form reset after sending
+            contactForm.reset();
+
+        });
+
+    }
+
+});
